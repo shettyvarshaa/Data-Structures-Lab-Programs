@@ -12,6 +12,7 @@
 2. Design and Implement a program in C that simulates a mouse in a maze. The entrance spot, where the mouse 
   starts its journey, is chosen by the user who runs the program. It can be changed each time. 
   The sample maze is represented below:
+  
     ![image](https://user-images.githubusercontent.com/112955692/220124292-e37f8c40-7c11-438a-8b98-a7474e3fb619.png)
     
     The program must print the path taken by the mouse from the starting point to the final point, including all 
