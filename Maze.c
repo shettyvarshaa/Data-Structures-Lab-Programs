@@ -1,4 +1,5 @@
 #include<stdio.h>
+//according to the question, it must be #define size 7 
 #define size 4
 
 int maze[size][size];
