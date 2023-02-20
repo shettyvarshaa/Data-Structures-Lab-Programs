@@ -29,8 +29,27 @@
     ![image](https://user-images.githubusercontent.com/112955692/220180384-34256f90-c169-4517-bb44-59f17dc6bcea.png)
     
     Categorize and sort them into different groups as mentioned below:
+    
       Group 1: Less than 10
+      
       Group 2: Between 10 and 19
+      
       Group 3: Between 20 and 29
+      
       Group 4: 30 and greater
+      
+5. Design and Implement a menu driven program in C for the following operations on Doubly Linked List (DLL) 
+    of Student Data with the fields: USN, Name, Dept, Marks, Phone Number
+    
+        a. Create a DLL of N Students Data by using end insertion.
+        
+        b. Display the status of DLL and count the number of nodes in it
+        
+        c. Perform Insertion and Deletion at End of DLL
+        
+        d. Perform Insertion and Deletion at Front of DLL
+        
+        e. Display the total and average marks for each student
+        
+
 
