@@ -18,3 +18,6 @@
     The program must print the path taken by the mouse from the starting point to the final point, including all 
     spots that have been visited and backtracked.
 
+3. Design and Implement a program in C for the following Stack Applications,
+    a. Evaluation of Suffix expression with single digit operands and operators: +, -, *, /, %, ^
+    b. Conversion of Arithmetic Expressions
