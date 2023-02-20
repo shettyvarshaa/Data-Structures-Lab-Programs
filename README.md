@@ -19,5 +19,18 @@
     spots that have been visited and backtracked.
 
 3. Design and Implement a program in C for the following Stack Applications,
+
     a. Evaluation of Suffix expression with single digit operands and operators: +, -, *, /, %, ^
+    
     b. Conversion of Arithmetic Expressions
+    
+4. Design and Implement a program in C to categorize the data. Consider the following sample list of numbers
+
+    ![image](https://user-images.githubusercontent.com/112955692/220180384-34256f90-c169-4517-bb44-59f17dc6bcea.png)
+    
+    Categorize and sort them into different groups as mentioned below:
+      Group 1: Less than 10
+      Group 2: Between 10 and 19
+      Group 3: Between 20 and 29
+      Group 4: 30 and greater
+
