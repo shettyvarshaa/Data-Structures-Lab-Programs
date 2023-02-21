@@ -55,5 +55,10 @@
         
         e. Display the total and average marks for each student
         
-
-
+6. Design and Implement a program in C for the following operations on Singly Circular Linked List (SCLL) 
+   with header nodes,
+   
+    a. Represent and Evaluate a Polynomial P(x,y,z) = 6x^2y^2z - 4yz^5 + 3x^3yz + 2xy^5z - 2xyz^3.
+    
+    b. Find the sum of two polynomials POLY1(x,y,z) and POLY2(x,y,z) and store the result in POLYSUM(x,y,z).
+    
