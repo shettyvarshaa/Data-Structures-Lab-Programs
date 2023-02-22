@@ -11,7 +11,7 @@ typedef struct node
 
 node *create(char *name, long long int phone)
 {
-  node *newnode = (node*)malloc(sizeof(struct node));
+  node *newnode = (struct node *)malloc(sizeof(struct node));
   strcpy(newnode->name, name);
   newnode->phone = phone;
   newnode->llink = NULL;
@@ -113,7 +113,7 @@ int main()
   node *root = NULL;
   while (flag)
   {
-    printf("\n1. insert \n2. inorder \n3. pre order \n4. post order \n5. search \n6. delete \n7. exit\n");
+    printf("\n1. insert \n2. Traversal\n3. search \n4. delete \n5. exit\n");
     printf("Enter your choice\n");
     scanf("%d", &choice);
     switch (choice)
@@ -126,15 +126,14 @@ int main()
       root = insert(root, name, phone);
       break;
     case 2:
-      inorder(root);
-      break;
-    case 3:
+      printf("Preorder Traversal\n\n");
       preorder(root);
-      break;
-    case 4:
+      printf("Inorder Traversal\n\n");
+      inorder(root);
+      printf("Postorder Traversal\n\n");
       postorder(root);
       break;
-    case 5:
+    case 3:
       printf("enter the element to search \n");
       scanf("%s", name);
       node *temp = search(root, name);
@@ -143,12 +142,12 @@ int main()
       else
         printf("name: %s; phone %lld\n", temp->name, temp->phone);
       break;
-    case 6:
+    case 4:
       printf("Enter the name to delete \n");
       scanf("%s", name);
       root = delete (root, name);
       break;
-    case 7:
+    case 5:
       flag = 0;
       break;
     default:
