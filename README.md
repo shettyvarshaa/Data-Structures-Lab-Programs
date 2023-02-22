@@ -12,7 +12,7 @@
       
     c. Print a histogram using asterisks for each occurrence of an element.
     
-
+    
 2. Design and Implement a program in C that simulates a mouse in a maze. The entrance spot, where the mouse 
   starts its journey, is chosen by the user who runs the program. It can be changed each time. 
   The sample maze is represented below:
@@ -21,12 +21,14 @@
     
     The program must print the path taken by the mouse from the starting point to the final point, including all 
     spots that have been visited and backtracked.
-
+    
+    
 3. Design and Implement a program in C for the following Stack Applications,
 
     a. Evaluation of Suffix expression with single digit operands and operators: +, -, *, /, %, ^
     
     b. Conversion of Arithmetic Expressions
+    
     
 4. Design and Implement a program in C to categorize the data. Consider the following sample list of numbers
 
@@ -42,23 +44,36 @@
       
       Group 4: 30 and greater
       
+      
 5. Design and Implement a menu driven program in C for the following operations on Doubly Linked List (DLL) 
     of Student Data with the fields: USN, Name, Dept, Marks, Phone Number
     
-        a. Create a DLL of N Students Data by using end insertion.
+      a. Create a DLL of N Students Data by using end insertion.
         
-        b. Display the status of DLL and count the number of nodes in it
+      b. Display the status of DLL and count the number of nodes in it
         
-        c. Perform Insertion and Deletion at End of DLL
+      c. Perform Insertion and Deletion at End of DLL
         
-        d. Perform Insertion and Deletion at Front of DLL
+      d. Perform Insertion and Deletion at Front of DLL
         
-        e. Display the total and average marks for each student
-        
+      e. Display the total and average marks for each student
+      
+      
 6. Design and Implement a program in C for the following operations on Singly Circular Linked List (SCLL) 
    with header nodes,
    
     a. Represent and Evaluate a Polynomial P(x,y,z) = 6x^2y^2z - 4yz^5 + 3x^3yz + 2xy^5z - 2xyz^3.
     
     b. Find the sum of two polynomials POLY1(x,y,z) and POLY2(x,y,z) and store the result in POLYSUM(x,y,z).
+    
+    
+7. Design and Implement a program in C that reads a list of names and telephone numbers to inserts them into a Binary Search Tree for the following operations,
+
+    a. Search the list for a specified name.
+    
+    b. Insert a new name.
+    
+    c. Delete an existing name.
+    
+    d. Traverse the phone list using Inorder, Preorder and Postorder.
     
