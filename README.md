@@ -77,3 +77,17 @@
     
     d. Traverse the phone list using Inorder, Preorder and Postorder.
     
+    
+8. A company has seven top officers working for it. They are each fluent in at least one language according to the following sample table:
+
+    ![image](https://user-images.githubusercontent.com/112955692/221850476-017eebaf-c967-4abe-85e4-368b699292d0.png)
+
+    Design and Implement a program in C for the following operations on Graphs (G):
+    
+        a. Create a graph using adjacency matrix indicating people who can communicate directly with each other.
+        
+        b. Print all the officers which are reachable from a given officer as a starting node in a digraph.
+            Example: An officer wants to send a message to each other officer: A message comes to an 
+            officer, he reads it and transmits it to another officer possibly after translation to someone who 
+            has not read it.
+            
