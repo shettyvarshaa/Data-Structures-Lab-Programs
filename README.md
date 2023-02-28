@@ -91,3 +91,6 @@
             officer, he reads it and transmits it to another officer possibly after translation to someone who 
             has not read it.
             
+9. Design and Implement a program in C that uses Hash Function H:K->L as H(K)=K mod m(reminder method) 
+   and implement hashing technique to map a given key K to the address space L. Resolve the collision (if any) 
+   using linear probing.
